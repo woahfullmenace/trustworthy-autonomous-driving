@@ -1,0 +1,13 @@
+version: intervention-v1.0
+concept_run: outputs/concept_training/balanced_v3
+tree_run: outputs/decision_tree/pilot_v1_complete
+comparison_run: outputs/concept_comparison/balanced_v3
+split: validation
+threshold: 0.5
+priority:
+- obstacle_close
+- pedestrian_present
+- cyclist_present
+- road_clear
+- vehicle_present
+success_denominator: all_initially_incorrect_actions

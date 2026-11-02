@@ -1,0 +1,8 @@
+policy_version: decision-tree-v1.0
+max_depth: 4
+criterion: gini
+min_samples_leaf: 1
+class_weight: null
+random_state: 42
+concept_threshold: 0.5
+concept_run: outputs/concept_training/pilot_v1

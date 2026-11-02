@@ -1,0 +1,10 @@
+action_version: actions-v1.0
+concept_version: concepts-v1.0
+eligibility_version: eligibility-v1.0
+stop_if:
+  obstacle_close: 1
+slow_if_any:
+  pedestrian_present: 1
+  cyclist_present: 1
+  road_clear: 0
+otherwise: GO

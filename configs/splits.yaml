@@ -1,0 +1,10 @@
+policy_version: splits-v1.0
+seed: 42
+targets: [0.70, 0.15, 0.15]
+image_bounds: [[310, 370], [60, 90], [60, 90]]
+action_minimums:
+  STOP: [10, 3, 3]
+  SLOW: [1, 1, 1]
+  GO: [20, 5, 5]
+time_limit_seconds: 60
+primary_tolerance: 0.0000001

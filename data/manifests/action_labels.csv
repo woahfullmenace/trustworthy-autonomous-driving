@@ -1,0 +1,491 @@
+sample_id,official_split,sequence_id,concept_version,eligibility_version,action_version,action,reason
+aachen_000002_000019,train,aachen_000002,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000008_000019,train,aachen_000008,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000013_000019,train,aachen_000013,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+aachen_000026_000019,train,aachen_000026,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000029_000019,train,aachen_000029,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+aachen_000032_000019,train,aachen_000032,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000038_000019,train,aachen_000038,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+aachen_000047_000019,train,aachen_000047,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000060_000019,train,aachen_000060,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+aachen_000079_000019,train,aachen_000079,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+aachen_000086_000019,train,aachen_000086,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000102_000019,train,aachen_000102,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+aachen_000108_000019,train,aachen_000108,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+aachen_000122_000019,train,aachen_000122,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+aachen_000128_000019,train,aachen_000128,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+aachen_000130_000019,train,aachen_000130,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+aachen_000131_000019,train,aachen_000131,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bochum_000000_001097,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_004748,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bochum_000000_006746,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_013209,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_014332,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_014658,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_019188,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_021606,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_023040,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_023435,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+bochum_000000_024343,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_024717,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_024855,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_025746,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_028297,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bochum_000000_028764,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_033531,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bochum_000000_034936,train,bochum_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000001_000019,train,bremen_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000006_000019,train,bremen_000006,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000008_000019,train,bremen_000008,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000010_000019,train,bremen_000010,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+bremen_000011_000019,train,bremen_000011,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000013_000019,train,bremen_000013,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000014_000019,train,bremen_000014,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000020_000019,train,bremen_000020,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000022_000019,train,bremen_000022,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000027_000019,train,bremen_000027,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000030_000019,train,bremen_000030,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000038_000019,train,bremen_000038,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000052_000019,train,bremen_000052,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000056_000019,train,bremen_000056,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000058_000019,train,bremen_000058,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000065_000019,train,bremen_000065,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000080_000019,train,bremen_000080,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000086_000019,train,bremen_000086,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+bremen_000102_000019,train,bremen_000102,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000108_000019,train,bremen_000108,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000109_000019,train,bremen_000109,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+bremen_000112_000019,train,bremen_000112,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+bremen_000113_000019,train,bremen_000113,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+bremen_000116_000019,train,bremen_000116,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+bremen_000126_000019,train,bremen_000126,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000127_000019,train,bremen_000127,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000131_000019,train,bremen_000131,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000133_000019,train,bremen_000133,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000139_000019,train,bremen_000139,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000143_000019,train,bremen_000143,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000148_000019,train,bremen_000148,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+bremen_000149_000019,train,bremen_000149,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000154_000019,train,bremen_000154,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+bremen_000165_000019,train,bremen_000165,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+bremen_000168_000019,train,bremen_000168,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000177_000019,train,bremen_000177,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000179_000019,train,bremen_000179,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000186_000019,train,bremen_000186,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+bremen_000188_000019,train,bremen_000188,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+bremen_000199_000019,train,bremen_000199,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+bremen_000202_000019,train,bremen_000202,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000221_000019,train,bremen_000221,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+bremen_000225_000019,train,bremen_000225,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+bremen_000241_000019,train,bremen_000241,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000245_000019,train,bremen_000245,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000255_000019,train,bremen_000255,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+bremen_000266_000019,train,bremen_000266,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000271_000019,train,bremen_000271,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+bremen_000272_000019,train,bremen_000272,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+bremen_000280_000019,train,bremen_000280,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+bremen_000296_000019,train,bremen_000296,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+bremen_000301_000019,train,bremen_000301,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+bremen_000304_000019,train,bremen_000304,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+bremen_000315_000019,train,bremen_000315,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+cologne_000040_000019,train,cologne_000040,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+cologne_000048_000019,train,cologne_000048,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+cologne_000050_000019,train,cologne_000050,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+cologne_000058_000019,train,cologne_000058,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+cologne_000060_000019,train,cologne_000060,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+cologne_000061_000019,train,cologne_000061,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+cologne_000067_000019,train,cologne_000067,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+cologne_000069_000019,train,cologne_000069,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+cologne_000075_000019,train,cologne_000075,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+cologne_000080_000019,train,cologne_000080,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+cologne_000083_000019,train,cologne_000083,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+cologne_000088_000019,train,cologne_000088,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+cologne_000090_000019,train,cologne_000090,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+cologne_000095_000019,train,cologne_000095,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+cologne_000114_000019,train,cologne_000114,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+cologne_000145_000019,train,cologne_000145,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+darmstadt_000011_000019,train,darmstadt_000011,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+darmstadt_000021_000019,train,darmstadt_000021,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+darmstadt_000037_000019,train,darmstadt_000037,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+darmstadt_000039_000019,train,darmstadt_000039,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+darmstadt_000044_000019,train,darmstadt_000044,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+darmstadt_000047_000019,train,darmstadt_000047,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+darmstadt_000074_000019,train,darmstadt_000074,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000008_000019,train,dusseldorf_000008,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+dusseldorf_000011_000019,train,dusseldorf_000011,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000033_000019,train,dusseldorf_000033,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000037_000019,train,dusseldorf_000037,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+dusseldorf_000039_000019,train,dusseldorf_000039,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000042_000019,train,dusseldorf_000042,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000045_000019,train,dusseldorf_000045,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+dusseldorf_000048_000019,train,dusseldorf_000048,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000050_000019,train,dusseldorf_000050,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000052_000019,train,dusseldorf_000052,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000056_000019,train,dusseldorf_000056,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000066_000019,train,dusseldorf_000066,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000070_000019,train,dusseldorf_000070,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000073_000019,train,dusseldorf_000073,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000074_000019,train,dusseldorf_000074,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000077_000019,train,dusseldorf_000077,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000089_000019,train,dusseldorf_000089,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000095_000019,train,dusseldorf_000095,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000108_000019,train,dusseldorf_000108,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000112_000019,train,dusseldorf_000112,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000113_000019,train,dusseldorf_000113,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000117_000019,train,dusseldorf_000117,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+dusseldorf_000127_000019,train,dusseldorf_000127,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000128_000019,train,dusseldorf_000128,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000138_000019,train,dusseldorf_000138,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000143_000019,train,dusseldorf_000143,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000149_000019,train,dusseldorf_000149,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000152_000019,train,dusseldorf_000152,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+dusseldorf_000155_000019,train,dusseldorf_000155,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000161_000019,train,dusseldorf_000161,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000170_000019,train,dusseldorf_000170,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000175_000019,train,dusseldorf_000175,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000177_000019,train,dusseldorf_000177,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+dusseldorf_000178_000019,train,dusseldorf_000178,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000183_000019,train,dusseldorf_000183,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+dusseldorf_000185_000019,train,dusseldorf_000185,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000190_000019,train,dusseldorf_000190,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000193_000019,train,dusseldorf_000193,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+dusseldorf_000198_000019,train,dusseldorf_000198,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+dusseldorf_000203_000019,train,dusseldorf_000203,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+dusseldorf_000204_000019,train,dusseldorf_000204,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+erfurt_000022_000019,train,erfurt_000022,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+erfurt_000030_000019,train,erfurt_000030,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+erfurt_000032_000019,train,erfurt_000032,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+erfurt_000035_000019,train,erfurt_000035,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+erfurt_000037_000019,train,erfurt_000037,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+erfurt_000038_000019,train,erfurt_000038,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+erfurt_000039_000019,train,erfurt_000039,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+erfurt_000040_000019,train,erfurt_000040,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+erfurt_000041_000019,train,erfurt_000041,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+erfurt_000046_000019,train,erfurt_000046,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+erfurt_000047_000019,train,erfurt_000047,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+erfurt_000050_000019,train,erfurt_000050,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+erfurt_000059_000019,train,erfurt_000059,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+erfurt_000069_000019,train,erfurt_000069,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+erfurt_000080_000019,train,erfurt_000080,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+erfurt_000092_000019,train,erfurt_000092,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+erfurt_000093_000019,train,erfurt_000093,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+erfurt_000094_000019,train,erfurt_000094,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+erfurt_000108_000019,train,erfurt_000108,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hamburg_000000_007737,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_008221,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+hamburg_000000_021353,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+hamburg_000000_029676,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_030953,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hamburg_000000_037161,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_039264,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hamburg_000000_041667,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hamburg_000000_042885,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_046566,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+hamburg_000000_053776,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hamburg_000000_060215,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_062710,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_063403,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hamburg_000000_064269,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hamburg_000000_065843,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hamburg_000000_066706,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hamburg_000000_077642,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_077756,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hamburg_000000_087216,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_097086,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+hamburg_000000_099109,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+hamburg_000000_102379,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hamburg_000000_103367,train,hamburg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+hanover_000000_000381,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+hanover_000000_002140,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_009004,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_018213,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+hanover_000000_019282,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hanover_000000_024441,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+hanover_000000_027282,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+hanover_000000_027390,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_027766,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hanover_000000_029769,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+hanover_000000_035491,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_036051,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hanover_000000_040294,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_040793,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hanover_000000_045188,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_045657,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+hanover_000000_046200,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+hanover_000000_046572,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+hanover_000000_048274,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+hanover_000000_051842,train,hanover_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000000_000019,train,jena_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+jena_000021_000019,train,jena_000021,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000022_000019,train,jena_000022,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000035_000019,train,jena_000035,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000036_000019,train,jena_000036,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000043_000019,train,jena_000043,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+jena_000044_000019,train,jena_000044,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+jena_000050_000019,train,jena_000050,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+jena_000054_000019,train,jena_000054,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+jena_000065_000019,train,jena_000065,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+jena_000068_000019,train,jena_000068,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+jena_000118_000019,train,jena_000118,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+krefeld_000000_000108,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+krefeld_000000_004447,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+krefeld_000000_004608,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+krefeld_000000_005503,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+krefeld_000000_006274,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+krefeld_000000_006686,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+krefeld_000000_007325,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+krefeld_000000_015116,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+krefeld_000000_018747,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+krefeld_000000_023143,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+krefeld_000000_027596,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+krefeld_000000_035398,train,krefeld_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+monchengladbach_000000_009930,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+monchengladbach_000000_010505,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+monchengladbach_000000_015561,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+monchengladbach_000000_018720,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+monchengladbach_000000_019142,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+monchengladbach_000000_020596,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+monchengladbach_000000_023856,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+monchengladbach_000000_026006,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+monchengladbach_000000_026602,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+monchengladbach_000000_027628,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+monchengladbach_000000_033454,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+monchengladbach_000000_033683,train,monchengladbach_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000000_000295,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+strasbourg_000000_003632,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_008677,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_008784,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000000_012934,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+strasbourg_000000_017159,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_021651,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_022067,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000000_022489,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_023854,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+strasbourg_000000_025907,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000000_029400,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+strasbourg_000000_033838,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000000_035255,train,strasbourg_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_001072,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_003159,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_003489,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_003991,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_005666,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000001_005876,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_007657,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+strasbourg_000001_012956,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_025426,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+strasbourg_000001_031427,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_032660,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000001_033027,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_034633,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_035562,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000001_037090,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_039231,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_041215,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_042434,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_043080,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+strasbourg_000001_045481,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+strasbourg_000001_045880,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+strasbourg_000001_046324,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_047955,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+strasbourg_000001_049977,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_051574,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_052430,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+strasbourg_000001_052497,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_057517,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_058105,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+strasbourg_000001_060173,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_061685,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_062542,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+strasbourg_000001_063808,train,strasbourg_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+stuttgart_000000_000019,train,stuttgart_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000005_000019,train,stuttgart_000005,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+stuttgart_000022_000019,train,stuttgart_000022,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000023_000019,train,stuttgart_000023,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+stuttgart_000030_000019,train,stuttgart_000030,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000039_000019,train,stuttgart_000039,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000047_000019,train,stuttgart_000047,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000057_000019,train,stuttgart_000057,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000062_000019,train,stuttgart_000062,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000084_000019,train,stuttgart_000084,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+stuttgart_000088_000019,train,stuttgart_000088,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000095_000019,train,stuttgart_000095,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000096_000019,train,stuttgart_000096,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000114_000019,train,stuttgart_000114,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000116_000019,train,stuttgart_000116,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000118_000019,train,stuttgart_000118,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+stuttgart_000133_000019,train,stuttgart_000133,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+stuttgart_000134_000019,train,stuttgart_000134,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000137_000019,train,stuttgart_000137,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+stuttgart_000142_000019,train,stuttgart_000142,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000159_000019,train,stuttgart_000159,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000161_000019,train,stuttgart_000161,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+stuttgart_000164_000019,train,stuttgart_000164,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000166_000019,train,stuttgart_000166,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000177_000019,train,stuttgart_000177,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+stuttgart_000189_000019,train,stuttgart_000189,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+tubingen_000000_000019,train,tubingen_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+tubingen_000005_000019,train,tubingen_000005,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+tubingen_000012_000019,train,tubingen_000012,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+tubingen_000022_000019,train,tubingen_000022,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+tubingen_000023_000019,train,tubingen_000023,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+tubingen_000033_000019,train,tubingen_000033,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+tubingen_000061_000019,train,tubingen_000061,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+tubingen_000064_000019,train,tubingen_000064,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+tubingen_000072_000019,train,tubingen_000072,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+tubingen_000089_000019,train,tubingen_000089,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+tubingen_000098_000019,train,tubingen_000098,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+tubingen_000102_000019,train,tubingen_000102,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+tubingen_000112_000019,train,tubingen_000112,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+tubingen_000128_000019,train,tubingen_000128,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+tubingen_000131_000019,train,tubingen_000131,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+ulm_000001_000019,train,ulm_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+ulm_000003_000019,train,ulm_000003,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+ulm_000005_000019,train,ulm_000005,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+ulm_000009_000019,train,ulm_000009,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+ulm_000030_000019,train,ulm_000030,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+ulm_000038_000019,train,ulm_000038,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+ulm_000045_000019,train,ulm_000045,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+ulm_000055_000019,train,ulm_000055,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+ulm_000058_000019,train,ulm_000058,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+ulm_000060_000019,train,ulm_000060,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+ulm_000068_000019,train,ulm_000068,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+ulm_000083_000019,train,ulm_000083,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+ulm_000086_000019,train,ulm_000086,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+ulm_000092_000019,train,ulm_000092,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000006_000019,train,weimar_000006,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000012_000019,train,weimar_000012,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+weimar_000023_000019,train,weimar_000023,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+weimar_000033_000019,train,weimar_000033,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+weimar_000034_000019,train,weimar_000034,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+weimar_000040_000019,train,weimar_000040,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000048_000019,train,weimar_000048,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+weimar_000055_000019,train,weimar_000055,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000060_000019,train,weimar_000060,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+weimar_000075_000019,train,weimar_000075,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000076_000019,train,weimar_000076,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000080_000019,train,weimar_000080,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+weimar_000081_000019,train,weimar_000081,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000088_000019,train,weimar_000088,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000096_000019,train,weimar_000096,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+weimar_000107_000019,train,weimar_000107,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000114_000019,train,weimar_000114,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000127_000019,train,weimar_000127,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+weimar_000137_000019,train,weimar_000137,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+zurich_000006_000019,train,zurich_000006,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+zurich_000012_000019,train,zurich_000012,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+zurich_000019_000019,train,zurich_000019,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+zurich_000021_000019,train,zurich_000021,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000032_000019,train,zurich_000032,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000067_000019,train,zurich_000067,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000070_000019,train,zurich_000070,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+zurich_000073_000019,train,zurich_000073,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+zurich_000078_000019,train,zurich_000078,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000079_000019,train,zurich_000079,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+zurich_000083_000019,train,zurich_000083,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000084_000019,train,zurich_000084,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+zurich_000085_000019,train,zurich_000085,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+zurich_000093_000019,train,zurich_000093,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+zurich_000097_000019,train,zurich_000097,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+zurich_000099_000019,train,zurich_000099,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000109_000019,train,zurich_000109,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+zurich_000115_000019,train,zurich_000115,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+zurich_000120_000019,train,zurich_000120,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000000_000576,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+frankfurt_000000_001751,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000000_005898,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000000_009561,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000000_009688,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000000_009969,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000000_010351,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+frankfurt_000000_010763,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+frankfurt_000000_015389,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000000_016286,val,frankfurt_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+frankfurt_000001_002512,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_003056,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+frankfurt_000001_004327,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_007407,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_007622,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_010444,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_010600,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_011715,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_012038,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_012519,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_012699,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_014406,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_014565,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_016462,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_018113,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_020287,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_023769,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_024927,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_025713,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_028590,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_030310,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_032942,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_034047,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_038245,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_038418,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_043564,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_044227,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+frankfurt_000001_048196,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+frankfurt_000001_048654,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_051737,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_052120,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_053102,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_054415,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_055062,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_055709,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_059119,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_060422,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_060906,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,STOP,obstacle_close=1
+frankfurt_000001_061682,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+frankfurt_000001_062793,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_064130,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_065617,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+frankfurt_000001_067474,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_068772,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+frankfurt_000001_080391,val,frankfurt_000001,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+lindau_000012_000019,val,lindau_000012,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+lindau_000015_000019,val,lindau_000015,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+lindau_000020_000019,val,lindau_000020,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+lindau_000031_000019,val,lindau_000031,concepts-v1.0,eligibility-v1.0,actions-v1.0,GO,obstacle_close=0; pedestrian_present=0; cyclist_present=0; road_clear=1
+munster_000000_000019,val,munster_000000,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000002_000019,val,munster_000002,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000011_000019,val,munster_000011,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000015_000019,val,munster_000015,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000016_000019,val,munster_000016,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000023_000019,val,munster_000023,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000027_000019,val,munster_000027,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+munster_000033_000019,val,munster_000033,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000035_000019,val,munster_000035,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000050_000019,val,munster_000050,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000051_000019,val,munster_000051,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000053_000019,val,munster_000053,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000057_000019,val,munster_000057,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000068_000019,val,munster_000068,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000069_000019,val,munster_000069,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000073_000019,val,munster_000073,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000074_000019,val,munster_000074,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000077_000019,val,munster_000077,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+munster_000080_000019,val,munster_000080,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000081_000019,val,munster_000081,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,road_clear=0
+munster_000083_000019,val,munster_000083,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+munster_000084_000019,val,munster_000084,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000089_000019,val,munster_000089,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000090_000019,val,munster_000090,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000098_000019,val,munster_000098,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1; road_clear=0
+munster_000101_000019,val,munster_000101,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000112_000019,val,munster_000112,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000114_000019,val,munster_000114,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000115_000019,val,munster_000115,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+munster_000116_000019,val,munster_000116,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000121_000019,val,munster_000121,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1; road_clear=0
+munster_000126_000019,val,munster_000126,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,cyclist_present=1
+munster_000130_000019,val,munster_000130,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; road_clear=0
+munster_000134_000019,val,munster_000134,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000136_000019,val,munster_000136,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000137_000019,val,munster_000137,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1
+munster_000138_000019,val,munster_000138,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000161_000019,val,munster_000161,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1
+munster_000169_000019,val,munster_000169,concepts-v1.0,eligibility-v1.0,actions-v1.0,SLOW,pedestrian_present=1; cyclist_present=1

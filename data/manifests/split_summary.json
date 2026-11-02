@@ -1,0 +1,188 @@
+{
+  "policy_version": "splits-v1.0",
+  "configuration": {
+    "policy_version": "splits-v1.0",
+    "seed": 42,
+    "targets": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "image_bounds": [
+      [
+        310,
+        370
+      ],
+      [
+        60,
+        90
+      ],
+      [
+        60,
+        90
+      ]
+    ],
+    "action_minimums": {
+      "STOP": [
+        10,
+        3,
+        3
+      ],
+      "SLOW": [
+        1,
+        1,
+        1
+      ],
+      "GO": [
+        20,
+        5,
+        5
+      ]
+    },
+    "time_limit_seconds": 60,
+    "primary_tolerance": 1e-07
+  },
+  "input_hashes": {
+    "manifest": "cdb9ee31887e2962d855144ebcd668b2ed3b768da5e8ea5fc898db2d3de68e88",
+    "concept_labels": "1f852f71790940183ec9bf0808828c7fd4a560b956d863b9c91d53e77c5c7b85",
+    "concept_summary": "de30c58bacbd4e696f65cf6130ada84b16baba7c04e400281d913f2f8e5bb79c",
+    "concept_rules": "41af4d8120132c4737d1d801a9482d673f38af05735bf7c3016dfd40377bc1d6",
+    "eligibility": "5bf3809f796f799e82cfb523bbe9a062dea362ab8d2ea7dc4ac84eb22330c8dd",
+    "eligibility_summary": "804cb210ec0a5c5af18dd446324eb0363014898a9257f54e07cfcf89da535b90",
+    "inspection_registry": "810aae3f43e0b1decd58fb58fab85853acef1b31e7600936882efc3b0379261c",
+    "action_policy": "964137c2e49776a56e98e4ad94145ed19c2464102ead2ea75d009d6eb2174baf",
+    "action_labels": "24301753125300f57b7f5207589e40a051ffaf6293f1210529a3ccaa070f082d",
+    "action_summary": "010be1d1e3470af62ba1d6c92cedc2640b1a585c9e20ad0fd75d887ef1efdff6",
+    "split_policy": "12e4b4bb1c33771949875ac77232409627abf2dd9ed861d3d8070f436907d96f"
+  },
+  "output_sha256": "3f8296dc6c48889c8ad2cda44f72d677fc58e46f9d9314fb1ff7e452649da2c7",
+  "solver": {
+    "engine": "HiGHS",
+    "highs_version": "1.12.0",
+    "scipy_version": "1.18.1",
+    "numpy_version": "2.5.2",
+    "primary_optimum": 0.1646464437054789,
+    "assignment_primary": 0.16464644370547887,
+    "secondary_objective": 94.24388763124755,
+    "seed": 42
+  },
+  "counts": {
+    "train": {
+      "images": 342,
+      "sequences": 163,
+      "actions": {
+        "STOP": 10,
+        "SLOW": 300,
+        "GO": 32
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 271,
+          "negative": 71
+        },
+        "vehicle_present": {
+          "positive": 325,
+          "negative": 17
+        },
+        "cyclist_present": {
+          "positive": 107,
+          "negative": 235
+        },
+        "road_clear": {
+          "positive": 209,
+          "negative": 133
+        },
+        "obstacle_close": {
+          "positive": 10,
+          "negative": 332
+        }
+      },
+      "official_splits": {
+        "train": 264,
+        "val": 78
+      },
+      "inspected_sequences": 44,
+      "images_from_inspected_sequences": 125
+    },
+    "validation": {
+      "images": 74,
+      "sequences": 74,
+      "actions": {
+        "STOP": 3,
+        "SLOW": 64,
+        "GO": 7
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 52,
+          "negative": 22
+        },
+        "vehicle_present": {
+          "positive": 74,
+          "negative": 0
+        },
+        "cyclist_present": {
+          "positive": 15,
+          "negative": 59
+        },
+        "road_clear": {
+          "positive": 30,
+          "negative": 44
+        },
+        "obstacle_close": {
+          "positive": 3,
+          "negative": 71
+        }
+      },
+      "official_splits": {
+        "train": 63,
+        "val": 11
+      },
+      "inspected_sequences": 0,
+      "images_from_inspected_sequences": 0
+    },
+    "test": {
+      "images": 74,
+      "sequences": 74,
+      "actions": {
+        "STOP": 3,
+        "SLOW": 64,
+        "GO": 7
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 53,
+          "negative": 21
+        },
+        "vehicle_present": {
+          "positive": 72,
+          "negative": 2
+        },
+        "cyclist_present": {
+          "positive": 25,
+          "negative": 49
+        },
+        "road_clear": {
+          "positive": 40,
+          "negative": 34
+        },
+        "obstacle_close": {
+          "positive": 3,
+          "negative": 71
+        }
+      },
+      "official_splits": {
+        "train": 65,
+        "val": 9
+      },
+      "inspected_sequences": 0,
+      "images_from_inspected_sequences": 0
+    }
+  },
+  "checks": {
+    "eligible_ids_exactly_once": true,
+    "sequence_overlap": 0,
+    "inspected_sequences_only_in_train": true
+  },
+  "limitations": "Pooled coursework pilot, not official Cityscapes benchmark; three STOP test examples cannot establish reliable safety performance."
+}

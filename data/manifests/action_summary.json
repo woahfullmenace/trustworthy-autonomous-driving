@@ -1,0 +1,137 @@
+{
+  "action_version": "actions-v1.0",
+  "sample_count": 490,
+  "counts": {
+    "all": {
+      "STOP": {
+        "count": 16,
+        "proportion": 0.0326530612244898,
+        "sequences": 16
+      },
+      "SLOW": {
+        "count": 428,
+        "proportion": 0.8734693877551021,
+        "sequences": 273
+      },
+      "GO": {
+        "count": 46,
+        "proportion": 0.09387755102040816,
+        "sequences": 34
+      }
+    },
+    "train": {
+      "STOP": {
+        "count": 15,
+        "proportion": 0.03826530612244898,
+        "sequences": 15
+      },
+      "SLOW": {
+        "count": 335,
+        "proportion": 0.8545918367346939,
+        "sequences": 229
+      },
+      "GO": {
+        "count": 42,
+        "proportion": 0.10714285714285714,
+        "sequences": 31
+      }
+    },
+    "val": {
+      "STOP": {
+        "count": 1,
+        "proportion": 0.01020408163265306,
+        "sequences": 1
+      },
+      "SLOW": {
+        "count": 93,
+        "proportion": 0.9489795918367347,
+        "sequences": 44
+      },
+      "GO": {
+        "count": 4,
+        "proportion": 0.04081632653061224,
+        "sequences": 3
+      }
+    }
+  },
+  "audit_sample_ids": [
+    "aachen_000002_000019",
+    "aachen_000060_000019",
+    "bremen_000188_000019",
+    "aachen_000013_000019",
+    "aachen_000029_000019",
+    "bremen_000010_000019",
+    "tubingen_000023_000019",
+    "bremen_000133_000019",
+    "aachen_000131_000019",
+    "zurich_000067_000019",
+    "dusseldorf_000178_000019",
+    "dusseldorf_000108_000019",
+    "dusseldorf_000048_000019",
+    "bremen_000225_000019",
+    "zurich_000021_000019",
+    "bremen_000113_000019",
+    "ulm_000045_000019",
+    "strasbourg_000001_039231",
+    "bremen_000058_000019",
+    "stuttgart_000039_000019",
+    "jena_000043_000019",
+    "bochum_000000_013209",
+    "bochum_000000_006746",
+    "bremen_000086_000019",
+    "dusseldorf_000039_000019",
+    "dusseldorf_000070_000019",
+    "strasbourg_000000_023854",
+    "stuttgart_000095_000019",
+    "bochum_000000_001097"
+  ],
+  "audit_counts": {
+    "STOP": 2,
+    "SLOW": 21,
+    "GO": 6
+  },
+  "input_hashes": {
+    "manifest": "cdb9ee31887e2962d855144ebcd668b2ed3b768da5e8ea5fc898db2d3de68e88",
+    "concept_labels": "1f852f71790940183ec9bf0808828c7fd4a560b956d863b9c91d53e77c5c7b85",
+    "concept_summary": "de30c58bacbd4e696f65cf6130ada84b16baba7c04e400281d913f2f8e5bb79c",
+    "concept_rules": "41af4d8120132c4737d1d801a9482d673f38af05735bf7c3016dfd40377bc1d6",
+    "eligibility": "5bf3809f796f799e82cfb523bbe9a062dea362ab8d2ea7dc4ac84eb22330c8dd",
+    "eligibility_summary": "804cb210ec0a5c5af18dd446324eb0363014898a9257f54e07cfcf89da535b90",
+    "inspection_registry": "810aae3f43e0b1decd58fb58fab85853acef1b31e7600936882efc3b0379261c",
+    "action_policy": "964137c2e49776a56e98e4ad94145ed19c2464102ead2ea75d009d6eb2174baf"
+  },
+  "output_hashes": {
+    "action_labels.csv": "24301753125300f57b7f5207589e40a051ffaf6293f1210529a3ccaa070f082d",
+    "audit/index.html": "ab6ecf590c9bdc61a8c20939f2d1eb74c587cd24100dba3d178f6f5038960484",
+    "audit/aachen_000002_000019.png": "1c3264ba60d63f6fb0f00227de44ce9c79e2e591abddf6911d72f43d6bbd7ce8",
+    "audit/aachen_000060_000019.png": "ebed4ebd4e8c370ba43d57a83bb6f40b0dc7f93754286edf5b07fb32065dc059",
+    "audit/bremen_000188_000019.png": "b58c5b292cae4719f2ed352be6cc7a9879d0ac04a7d44a59f50688cebb8f0789",
+    "audit/aachen_000013_000019.png": "58d0e41bc1790b7494c5f513f294116099efb43144b495897bbdb703680b8eaf",
+    "audit/aachen_000029_000019.png": "65ccb6c4bf89eb4912c70f806fe6ae968a4f3a8a578abc7a0db356c9a706ab5f",
+    "audit/bremen_000010_000019.png": "d6042d91aff40522144f0dca6602e61c4b3abe96d661b6421076658901dc873f",
+    "audit/tubingen_000023_000019.png": "ac423d57e2de5af0fe2a719ea63a7ec33468bbb9d6cca88e1a2ca0e550dcc10b",
+    "audit/bremen_000133_000019.png": "c6475efb088f0b9dead9cd721f98b9a5062fcccd975f13c32d093d95a3664895",
+    "audit/aachen_000131_000019.png": "74261b34def43952145066809bd7423d10ad144fd02c29bd182a7f85f686bfbe",
+    "audit/zurich_000067_000019.png": "938c9910649ad521d0f699bf42e0106c8fa99632ad613f93b32e47d318f6cbb9",
+    "audit/dusseldorf_000178_000019.png": "193e6e6b553ee199e59c41ae999b07bc0a37ac90554f7ca1804c6c6e3a845499",
+    "audit/dusseldorf_000108_000019.png": "de7f8f5be4f7ad64b5838890b0c3a74240a079e3a90eceb736b500ed992c6750",
+    "audit/dusseldorf_000048_000019.png": "f7669c21149234207d2bb9977ff9490c8097701875c53669bab581ad61d62ece",
+    "audit/bremen_000225_000019.png": "b4155af57e1397e512dd98abf7f959e3a876558ad05dc7c82272ebe2a2e658dc",
+    "audit/zurich_000021_000019.png": "eaf5860b7ed8b7dce9713ce89d33467a8e444ad212be5013938dfaad2e3750fe",
+    "audit/bremen_000113_000019.png": "252ae54252c7f0c146c3deba0d2cc3270ad6881e6fceae7bb891b1e458499e2f",
+    "audit/ulm_000045_000019.png": "5dbc9d3665bbcd36dc7b18daf806b5b88f3a223da14a5744d01353985ffe700f",
+    "audit/strasbourg_000001_039231.png": "d2b0b0fd1a8021d0b32a8964507c2bffd4d9819d167a3d9e08f6e96374792016",
+    "audit/bremen_000058_000019.png": "3ddd672abf662ce0af33f987e60d1790cafd9f4d9859c1c42eabf96ca315dcbe",
+    "audit/stuttgart_000039_000019.png": "05f4e00524e1d34c0e80a8579f419455f80929f0fd846da8f89e91d5e6310ce8",
+    "audit/jena_000043_000019.png": "b46d3e6cedd59e950956fca56b365acfb17af1f2892d0ba1494a93452136bf65",
+    "audit/bochum_000000_013209.png": "21f2523835978d443a9472ed2051dc9acc3074906227ecbe7e7eb4848fd76bdc",
+    "audit/bochum_000000_006746.png": "cd6150856d3d7a98fa9e6a5e5f642ec2bdb06246d25bb5073ed098dee75aebcc",
+    "audit/bremen_000086_000019.png": "545c51f703c1a43815cc154d14b9fd783d9d6e47fa85558f3011f6d21990aad4",
+    "audit/dusseldorf_000039_000019.png": "42f90e4ac90831a28647ee7913a3db8d69e2a7ce309dd322011378b3a0562fb7",
+    "audit/dusseldorf_000070_000019.png": "49a2bacb5aec33968221ff0826bcbc9b047a7f070920a55137170800129d2a45",
+    "audit/strasbourg_000000_023854.png": "4b15a44d9aff460d0e6b53d5462cc5690869cac7de79f36da7fc6ffbc798207d",
+    "audit/stuttgart_000095_000019.png": "73e3f9e6df345597d45a021cd290461a4314b5773dbef020c3395cb7f6a1c15a",
+    "audit/bochum_000000_001097.png": "e2f846420ce6eea842fb8fcdbde3ac6f27dcb7dbbaf4b28d09599f86030ccd79"
+  },
+  "limitations": "Synthetic policy agreement, not driving safety; vehicle_present alone has no action effect. Official validation counts are descriptive only."
+}

@@ -1,0 +1,122 @@
+{
+  "policy_version": "eligibility-v1.0",
+  "rule_version": "concepts-v1.0",
+  "input_hashes": {
+    "manifest": "cdb9ee31887e2962d855144ebcd668b2ed3b768da5e8ea5fc898db2d3de68e88",
+    "labels": "1f852f71790940183ec9bf0808828c7fd4a560b956d863b9c91d53e77c5c7b85",
+    "concept_summary": "de30c58bacbd4e696f65cf6130ada84b16baba7c04e400281d913f2f8e5bb79c",
+    "rules": "41af4d8120132c4737d1d801a9482d673f38af05735bf7c3016dfd40377bc1d6",
+    "inspection_registry": "810aae3f43e0b1decd58fb58fab85853acef1b31e7600936882efc3b0379261c"
+  },
+  "output_hashes": {
+    "eligibility.csv": "5bf3809f796f799e82cfb523bbe9a062dea362ab8d2ea7dc4ac84eb22330c8dd"
+  },
+  "counts": {
+    "all": {
+      "total": 500,
+      "eligible": 490,
+      "excluded": 10,
+      "eligible_concept_counts": {
+        "pedestrian_present": {
+          "positive": 376,
+          "negative": 114
+        },
+        "vehicle_present": {
+          "positive": 471,
+          "negative": 19
+        },
+        "cyclist_present": {
+          "positive": 147,
+          "negative": 343
+        },
+        "road_clear": {
+          "positive": 279,
+          "negative": 211
+        },
+        "obstacle_close": {
+          "positive": 16,
+          "negative": 474
+        }
+      },
+      "exclusion_reasons": {
+        "invalid_concepts:road_clear": 1,
+        "invalid_concepts:road_clear;obstacle_close": 9
+      },
+      "directly_inspected": 49,
+      "inspected_sequences": 45,
+      "rows_in_inspected_sequences": 128
+    },
+    "train": {
+      "total": 400,
+      "eligible": 392,
+      "excluded": 8,
+      "eligible_concept_counts": {
+        "pedestrian_present": {
+          "positive": 294,
+          "negative": 98
+        },
+        "vehicle_present": {
+          "positive": 379,
+          "negative": 13
+        },
+        "cyclist_present": {
+          "positive": 97,
+          "negative": 295
+        },
+        "road_clear": {
+          "positive": 218,
+          "negative": 174
+        },
+        "obstacle_close": {
+          "positive": 15,
+          "negative": 377
+        }
+      },
+      "exclusion_reasons": {
+        "invalid_concepts:road_clear": 1,
+        "invalid_concepts:road_clear;obstacle_close": 7
+      },
+      "directly_inspected": 48,
+      "inspected_sequences": 44,
+      "rows_in_inspected_sequences": 127
+    },
+    "val": {
+      "total": 100,
+      "eligible": 98,
+      "excluded": 2,
+      "eligible_concept_counts": {
+        "pedestrian_present": {
+          "positive": 82,
+          "negative": 16
+        },
+        "vehicle_present": {
+          "positive": 92,
+          "negative": 6
+        },
+        "cyclist_present": {
+          "positive": 50,
+          "negative": 48
+        },
+        "road_clear": {
+          "positive": 61,
+          "negative": 37
+        },
+        "obstacle_close": {
+          "positive": 1,
+          "negative": 97
+        }
+      },
+      "exclusion_reasons": {
+        "invalid_concepts:road_clear;obstacle_close": 2
+      },
+      "directly_inspected": 1,
+      "inspected_sequences": 1,
+      "rows_in_inspected_sequences": 1
+    }
+  },
+  "inspection_sources": {
+    "concept_audit": 30,
+    "setup_preview": 20
+  },
+  "future_test_policy": "Exclude every inspected sequence from an unseen test set; official splits are not experimental assignments."
+}
