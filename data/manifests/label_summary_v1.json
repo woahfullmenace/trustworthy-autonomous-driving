@@ -1,0 +1,121 @@
+{
+  "protocol_version": "v1",
+  "protocol_sha256": "71c60f885e2ac9d62cde445c46e2d7a148261c4bd543e3e2f37c5b6b9a37d4a2",
+  "partitions": {
+    "train": {
+      "images": 320,
+      "sequences": 225,
+      "action_eligible": 313,
+      "action_unknown": 7,
+      "actions": {
+        "STOP": 33,
+        "SLOW": 213,
+        "GO": 67
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 239,
+          "negative": 81,
+          "unknown": 0
+        },
+        "vehicle_present": {
+          "positive": 310,
+          "negative": 10,
+          "unknown": 0
+        },
+        "cyclist_present": {
+          "positive": 86,
+          "negative": 234,
+          "unknown": 0
+        },
+        "road_clear": {
+          "positive": 280,
+          "negative": 33,
+          "unknown": 7
+        },
+        "obstacle_close": {
+          "positive": 17,
+          "negative": 296,
+          "unknown": 7
+        }
+      }
+    },
+    "val": {
+      "images": 80,
+      "sequences": 47,
+      "action_eligible": 79,
+      "action_unknown": 1,
+      "actions": {
+        "STOP": 7,
+        "SLOW": 58,
+        "GO": 14
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 63,
+          "negative": 17,
+          "unknown": 0
+        },
+        "vehicle_present": {
+          "positive": 77,
+          "negative": 3,
+          "unknown": 0
+        },
+        "cyclist_present": {
+          "positive": 22,
+          "negative": 58,
+          "unknown": 0
+        },
+        "road_clear": {
+          "positive": 72,
+          "negative": 7,
+          "unknown": 1
+        },
+        "obstacle_close": {
+          "positive": 4,
+          "negative": 75,
+          "unknown": 1
+        }
+      }
+    },
+    "test": {
+      "images": 100,
+      "sequences": 47,
+      "action_eligible": 98,
+      "action_unknown": 2,
+      "actions": {
+        "STOP": 9,
+        "SLOW": 84,
+        "GO": 5
+      },
+      "concepts": {
+        "pedestrian_present": {
+          "positive": 82,
+          "negative": 18,
+          "unknown": 0
+        },
+        "vehicle_present": {
+          "positive": 93,
+          "negative": 7,
+          "unknown": 0
+        },
+        "cyclist_present": {
+          "positive": 55,
+          "negative": 45,
+          "unknown": 0
+        },
+        "road_clear": {
+          "positive": 89,
+          "negative": 9,
+          "unknown": 2
+        },
+        "obstacle_close": {
+          "positive": 3,
+          "negative": 95,
+          "unknown": 2
+        }
+      }
+    }
+  },
+  "labels_sha256": "aac7f86a1638246256fe29a53a6a5088f5348ef25a37e379482112eaef909145"
+}

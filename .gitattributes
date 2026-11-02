@@ -1,0 +1,9 @@
+# Preserve exact bytes of checksum-locked sources and metadata across platforms.
+configs/concepts.json -text
+configs/label_protocol_v1.json -text
+scripts/audit_concepts.py -text
+scripts/audit_actions.py -text
+scripts/generate_labels.py -text
+data/manifests/*.csv -text
+data/manifests/*.json -text
+data/manifests/subset.csv whitespace=cr-at-eol

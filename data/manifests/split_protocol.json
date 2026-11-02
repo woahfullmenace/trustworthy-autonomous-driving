@@ -1,0 +1,27 @@
+{
+  "protocol": "official val -> test; seeded whole-sequence subset of official train -> val; remainder -> train",
+  "seed": 42,
+  "validation_images": 80,
+  "source_manifest_sha256": "cdb9ee31887e2962d855144ebcd668b2ed3b768da5e8ea5fc898db2d3de68e88",
+  "split_manifest_sha256": "9a20f135ef7f9044fc5c44c6fb08884f304000fcf45d007ebc02fba3ccfdfc2a",
+  "counts": {
+    "train": {
+      "images": 320,
+      "sequences": 225
+    },
+    "val": {
+      "images": 80,
+      "sequences": 47
+    },
+    "test": {
+      "images": 100,
+      "sequences": 47
+    }
+  },
+  "sequence_overlap": false,
+  "limitations": [
+    "No label stratification or performance-based seed selection.",
+    "Entire subset had preliminary previews and aggregate mask inspection before partitioning.",
+    "Small, correlated sequence groups limit effective test sample size; not a real-driving safety benchmark."
+  ]
+}

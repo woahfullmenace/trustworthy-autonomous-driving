@@ -1,5 +1,11 @@
 # Interpretable and Risk-Aware Autonomous Driving Decisions
 
+Current status: milestone 2 labels and sequence-grouped partitions are complete.
+The frozen dataset metadata is `data/manifests/labels_v1.csv`; reproduce/verify
+with `.\.venv\Scripts\python.exe scripts/generate_labels.py`.
+See `docs/FROZEN_LABELS.md` for counts, unknown-target handling, and reproducibility.
+Earlier setup and training-audit sections below describe the preceding stages.
+
 Coursework prototype: road image -> five human-readable concepts -> shallow decision tree -> STOP / SLOW / GO, with uncertainty-aware REQUEST HUMAN CONTROL.
 
 The current milestone provides a local Python environment, GPU verification, and a reproducible Cityscapes inspection subset. Concept labels, proxy action labels, model training, and evaluation are subsequent milestones. The supplied proposal is preserved in `docs/PROJECT_PROPOSAL.pdf` and transcribed in `PROJECT_PROPOSAL.md`.
@@ -58,5 +64,9 @@ The GPU check uses randomly initialized ResNet18 and a synthetic batch, with fiv
 - `notebooks/`: future results presentation.
 - `tests/`: meaningful selection and archive-path checks.
 - `outputs/`: ignored reports, figures, and future checkpoints.
+
+The experimental partitions are now frozen: 320 training images (225 sequences), 80 validation images (47 sequences), and 100 test images (47 sequences). Use `experimental_split` in `data/manifests/experimental_splits.csv`; the original `official_split` only records Cityscapes provenance. Reproduce or verify with `.\.venv\Scripts\python.exe scripts/create_splits.py`. See `docs/EXPERIMENTAL_SPLITS.md` for the protocol, prior inspection exposure, and usage restrictions.
+
+Training-only concept proxies and audit sheets can be reproduced with `.\.venv\Scripts\python.exe scripts/audit_concepts.py`. Rules are in `configs/concepts.json`, definitions and reviewed limitations in `docs/LABEL_DEFINITIONS.md`, and generated artifacts in `outputs/concept_audit/v1-training-audit/`. Seven training images have unknown corridor targets; these must not be filled with zero. No held-out concept labels, action targets, or trained models are produced by this audit.
 
 See `docs/IMPLEMENTATION_CHECKLIST.md` for milestone order. In particular, define cyclist presence, lower-center road clearance and obstacle proximity, and conservative proxy action rules before generating training labels. Proximity is an image-space heuristic, not measured distance; action evaluation measures agreement with proxy rules, not real-world driving safety.

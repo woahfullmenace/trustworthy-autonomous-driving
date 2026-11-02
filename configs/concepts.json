@@ -1,0 +1,15 @@
+{
+  "version": "v1-training-audit",
+  "presence_min_fraction": 0.0001,
+  "pedestrian_ids": [24],
+  "vehicle_ids": [26, 27, 28, 31, 32],
+  "cyclist_bicycle_ids": [33],
+  "cyclist_rider_ids": [25],
+  "obstacle_ids": [24, 25, 26, 27, 28, 31, 32, 33],
+  "ignored_ids": [0, 1, 2, 3, 4, 5, 6, 9, 10, 14, 15, 16, 18, 29, 30, 255],
+  "corridor": {"x": [0.35, 0.65], "y": [0.55, 0.85]},
+  "minimum_valid_corridor_fraction": 0.5,
+  "road_clear_min_road_fraction": 0.8,
+  "road_clear_max_obstacle_fraction": 0.05,
+  "obstacle_close_min_fraction": 0.1
+}

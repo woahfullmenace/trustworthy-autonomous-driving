@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "frozen_date": "2026-11-01",
+  "sha256": {
+    "configs/concepts.json": "23903716a55afd37d79f9f243db97d8e4ea6bc59cfba9cb0728b71cec2154951",
+    "scripts/audit_concepts.py": "d654152d46a9cfe45ef30f1260fbf9d868d96f51e08cc7f64d68b6d12f2b071e",
+    "scripts/audit_actions.py": "b52020dcfe31a6f74330dc43ca08bdda031b81b6750e0741a756a13eb48e7a23",
+    "scripts/generate_labels.py": "244a2ee497a0f24898dab74b83b4bd982d9662c7aff4d28ec2bc31cee32e0b0c",
+    "data/manifests/experimental_splits.csv": "9a20f135ef7f9044fc5c44c6fb08884f304000fcf45d007ebc02fba3ccfdfc2a",
+    "data/manifests/split_protocol.json": "3447c50ff4cede6559bd1cb48d2caa4e243d0e3dd0e7c42991bcfa833ac23844"
+  },
+  "unknown_policy": "Blank action if any concept is missing; retain sample and known concept targets.",
+  "action_mapping": {
+    "STOP": 0,
+    "SLOW": 1,
+    "GO": 2
+  },
+  "prior_exposure": "Whole-subset previews/statistics preceded partitioning; rule development used training only.",
+  "held_out_use": "Apply unchanged rules and report counts only; no retuning from held-out labels."
+}

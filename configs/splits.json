@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "validation_images": 80,
+  "source_manifest": "data/manifests/subset.csv",
+  "split_manifest": "data/manifests/experimental_splits.csv",
+  "protocol_record": "data/manifests/split_protocol.json"
+}
